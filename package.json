@@ -3,6 +3,22 @@
   "displayName": "Bullfinch",
   "description": "Night Owl inspired theme based on the bullfinch",
   "version": "0.0.1",
+  "publisher": "ajmurphy",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AJ-Murphy/Bullfinch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AJ-Murphy/Bullfinch/issues"
+  },
+  "homepage": "https://github.com/AJ-Murphy/Bullfinch#readme",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "bullfinch",
+    "night owl"
+  ],
   "engines": {
     "vscode": "^1.54.0"
   },
