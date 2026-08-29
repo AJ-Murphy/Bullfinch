@@ -1,7 +1,7 @@
 {
   "name": "bullfinch",
   "displayName": "Bullfinch",
-  "description": "",
+  "description": "Night Owl inspired theme based on the bullfinch",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.54.0"
