@@ -1,0 +1,28 @@
+$bullfinch-breast: #d95f4c;
+$winter-sky: #9cc7ff;
+$compact: 40rem;
+
+@mixin perched($shade: $bullfinch-breast) {
+  border-inline-start: 0.35rem solid $shade;
+  box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 30%);
+}
+
+.bird-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1.25rem;
+
+  &__sighting {
+    @include perched;
+    padding: 1rem;
+
+    &:hover {
+      color: $winter-sky;
+      transform: translateY(-0.125rem);
+    }
+  }
+
+  @media (width <= $compact) {
+    grid-template-columns: 1fr;
+  }
+}

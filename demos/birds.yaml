@@ -1,0 +1,16 @@
+location: Northumberland garden
+active: true
+maximumVisitors: 12
+lastUpdated: null
+feeding:
+  seedMix: sunflower hearts
+  waterAvailable: true
+sightings:
+  - species: Bullfinch
+    count: 2
+    habitat: garden
+    ringed: false
+  - species: Blue Tit
+    count: 4
+    habitat: woodland-edge
+    ringed: true
